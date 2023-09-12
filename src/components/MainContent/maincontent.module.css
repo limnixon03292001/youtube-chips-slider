@@ -1,0 +1,7 @@
+.mainContainer {
+    display: grid;
+    margin-top: 1.5em;
+    grid-template-columns: 230px calc(100% - 265px);
+    width: 100%;
+    gap: 2em;
+}

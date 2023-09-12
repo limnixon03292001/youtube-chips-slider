@@ -1,0 +1,56 @@
+.chipSliderMainContainer{
+    position: relative;
+    width: 100%;
+  }
+  
+  .chipSliderMainContainer .btnLeft{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to left, transparent, #0F0F0F 80%);
+    cursor: pointer;
+  }
+  
+  .chipSliderMainContainer .btnRight{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, transparent, #0F0F0F 80%);
+    cursor: pointer;
+  }
+  
+  .chipSliderContainer {
+    width: 100%;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow-x: auto;
+    user-select: none;
+    margin-bottom: 2em;
+    scroll-behavior: smooth;
+  }
+  
+  .chipSliderContainer.dragging {
+    scroll-behavior: unset;
+    cursor: grab;    
+  }
+  
+  .chipSliderContainer::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .chipSliderContainer span {
+    display: inline-block;
+    margin: 0 0.4em;
+    background-color: #272727;
+    border-radius: 9px;
+    padding: 0.5em 0.7em;
+  }
+  
