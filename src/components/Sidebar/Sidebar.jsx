@@ -21,6 +21,22 @@ export default function Sidebar() {
             <AiOutlineNotification strokeWidth={0.3} size={"1.4em"}/>
             <p>Live</p>
         </div>
+        <div className={styles.link}>
+            <AiOutlineNotification strokeWidth={0.3} size={"1.4em"}/>
+            <p>Your Videos</p>
+        </div>
+        <div className={styles.link}>
+            <AiOutlineNotification strokeWidth={0.3} size={"1.4em"}/>
+            <p>Watch Later</p>
+        </div>
+        <div className={styles.link}>
+            <AiOutlineNotification strokeWidth={0.3} size={"1.4em"}/>
+            <p>Subscriptions</p>
+        </div>
+        <div className={styles.link}>
+            <AiOutlineNotification strokeWidth={0.3} size={"1.4em"}/>
+            <p>Shorts</p>
+        </div>
     </div>
   )
 }
